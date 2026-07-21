@@ -1,0 +1,9 @@
+# logs
+gen.log
+*.log
+
+# os
+.DS_Store
+
+# node
+node_modules/
