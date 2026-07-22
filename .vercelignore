@@ -1,0 +1,6 @@
+# Keep the Node dev server + tooling OUT of the Vercel deployment —
+# this is a static site; Vercel must serve the files directly, not run server.mjs.
+server.mjs
+generate_images.py
+gen.log
+RESEARCH.md
