@@ -4,3 +4,8 @@ server.mjs
 generate_images.py
 gen.log
 RESEARCH.md
+
+generate_images.py
+prep_images.py
+fal_enhance.py
+enh.log

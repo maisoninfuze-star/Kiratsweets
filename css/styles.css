@@ -269,3 +269,39 @@ em{font-style:italic}
   *{animation-duration:.001ms!important;transition-duration:.001ms!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* ===== Vegetarian mark + pill ===== */
+.vegdot{display:inline-block;width:15px;height:15px;border:1.6px solid #3d8b40;border-radius:3px;position:relative;vertical-align:middle;flex:0 0 auto}
+.vegdot::after{content:"";position:absolute;inset:2.5px;background:#3d8b40;border-radius:50%}
+.vegdot--lg{width:20px;height:20px;border-width:2px}
+.vegpill{display:inline-flex;align-items:center;gap:.5em;padding:.42em .95em;border-radius:100px;font-weight:700;font-size:.8rem;letter-spacing:.03em;background:#3d8b40;color:#fff}
+.vegpill .vegdot{border-color:#fff}
+.vegpill .vegdot::after{background:#fff}
+.vegpill--light{box-shadow:0 8px 24px -10px rgba(0,0,0,.5)}
+.hero .vegpill{margin-bottom:1.1rem}
+
+/* ===== Veg promise band ===== */
+.promise{background:linear-gradient(135deg,#2f6d3a,#255c30);color:#f3ead8}
+.promise__in{display:flex;justify-content:center;gap:clamp(1.4rem,5vw,4rem);flex-wrap:wrap;padding:1.5rem 0;text-align:center}
+.promise__item{display:flex;flex-direction:column;align-items:center;gap:.15rem;min-width:150px}
+.promise__item b{font-family:var(--font-d);font-weight:600;font-size:1.18rem;color:#fff;letter-spacing:.01em}
+.promise__item>span:last-child{font-size:.82rem;color:rgba(243,234,216,.82)}
+.promise__ic{color:var(--gold-soft);font-size:.9rem}
+.promise .vegdot{border-color:var(--gold-soft)}
+.promise .vegdot::after{background:var(--gold-soft)}
+
+/* ===== WhatsApp + call CTAs ===== */
+.btn--wa{--bg:#1faf54;--fg:#fff;box-shadow:0 12px 26px -14px rgba(31,175,84,.85)}
+.btn--wa:hover{--bg:#199a49}
+.wa-ic{font-size:1.05em;line-height:1;transform:translateY(1px)}
+.callout{margin-top:1.9rem;padding:1.15rem 1.3rem;background:var(--cream);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px}
+.callout p{font-size:.95rem;color:var(--ink);margin-bottom:.85rem}
+.callout__cta{display:flex;gap:.6rem;flex-wrap:wrap}
+.cater__call{font-weight:600;color:var(--ink);background:var(--cream-2);border-radius:10px;padding:.85rem 1.05rem;margin:.3rem 0 1.1rem;border-left:3px solid #1faf54;font-size:.98rem}
+.mrow--np{margin-top:1.35rem}
+.muted{color:var(--ink-soft);font-size:.9em}
+.socials a.soc-wa{border-color:#1faf54;color:#128a3e}
+.socials a.soc-wa:hover{background:#1faf54;color:#fff;border-color:#1faf54}
+
+/* story badge now shows the veg mark */
+.story__badge{flex-direction:row;align-items:center;gap:.5rem}

@@ -7,3 +7,6 @@ gen.log
 
 # node
 node_modules/
+assets/*.JPG
+assets/img/enh/
+enh.log

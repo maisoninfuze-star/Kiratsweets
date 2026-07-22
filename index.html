@@ -68,20 +68,30 @@
       <div class="hero__scrim"></div>
     </div>
     <div class="wrap hero__in">
+      <span class="vegpill vegpill--light reveal"><span class="vegdot"></span><span data-i18n="vegPill">100 % Végétarien</span></span>
       <p class="kicker kicker--light reveal" data-i18n="heroKicker">Sucreries &amp; collations indiennes · depuis Laval</p>
       <h1 class="hero__title reveal" data-i18n="heroTitle">Délices indiens<br><em>authentiques.</em></h1>
-      <p class="hero__lede reveal" data-i18n="heroLede">Mithai fraîches, samoussas croustillants et coffrets de fête — préparés maison chaque jour à Chomedey.</p>
+      <p class="hero__lede reveal" data-i18n="heroLede">Mithai fraîches, samoussas croustillants et coffrets de fête — 100 % végétariens, préparés maison chaque jour à Chomedey.</p>
       <div class="hero__cta reveal">
         <a class="btn btn--gold" href="#menu" data-i18n="heroBtnMenu">Voir le menu</a>
-        <a class="btn btn--outline" href="#catering" data-i18n="heroBtnCater">Service traiteur</a>
+        <a class="btn btn--outline" href="tel:+15144974106" data-i18n="heroBtnCall">Appelez-nous</a>
       </div>
       <ul class="hero__trust reveal" aria-label="points forts">
         <li><span class="hero__trustN">4,8&#9733;</span><span class="hero__trustL" data-i18n="trust1">Google · 76 avis</span></li>
-        <li><span class="hero__trustN" data-i18n="trust2N">100 % veg</span><span class="hero__trustL" data-i18n="trust2">options véganes</span></li>
+        <li><span class="hero__trustN" data-i18n="trust2N">100 % veg</span><span class="hero__trustL" data-i18n="trust2">aucun produit de viande</span></li>
         <li><span class="hero__trustN" data-i18n="trust3N">Frais</span><span class="hero__trustL" data-i18n="trust3">fait maison chaque jour</span></li>
       </ul>
     </div>
     <a href="#story" class="hero__scroll" aria-label="défiler"><span></span></a>
+  </section>
+
+  <!-- ===== Veg promise band ===== -->
+  <section class="promise">
+    <div class="wrap promise__in">
+      <div class="promise__item"><span class="vegdot vegdot--lg"></span><b data-i18n="prom1T">100 % Végétarien</b><span data-i18n="prom1D">aucun produit de viande, jamais</span></div>
+      <div class="promise__item"><span class="promise__ic">✦</span><b data-i18n="prom2T">100 % Pur &amp; Frais</b><span data-i18n="prom2D">préparé maison chaque jour</span></div>
+      <div class="promise__item"><span class="promise__ic">✦</span><b data-i18n="prom3T">Fait avec amour</b><span data-i18n="prom3D">recettes indiennes authentiques</span></div>
+    </div>
   </section>
 
   <!-- ===== Marquee ===== -->
@@ -96,16 +106,16 @@
   <section class="story section" id="story">
     <div class="wrap story__grid">
       <div class="story__media reveal">
-        <img src="assets/img/shopfront.jpg" alt="Comptoir de la boutique Kirat" />
+        <img src="assets/img/story-real.jpg" alt="Vitrine de sucreries de la boutique Kirat" />
         <div class="story__badge">
-          <span class="story__badgeN">Kirat</span>
-          <span class="story__badgeL" data-i18n="storyBadge">Sucreries &amp; Collations</span>
+          <span class="vegdot"></span>
+          <span class="story__badgeL" data-i18n="storyBadge">100 % Végétarien</span>
         </div>
       </div>
       <div class="story__body">
         <p class="kicker reveal" data-i18n="storyKicker">Notre maison</p>
         <h2 class="h2 reveal" data-i18n="storyTitle">Le goût de la maison, fait à la main chaque matin.</h2>
-        <p class="lead reveal" data-i18n="storyP1">Chez Kirat, chaque mithai est préparé en petites quantités avec du lait frais, des noix et une touche de safran — comme à la maison. Nos vitrines regorgent de sucreries colorées et de collations salées croustillantes, dans un espace impeccable dont nos clients raffolent.</p>
+        <p class="lead reveal" data-i18n="storyP1">Chez Kirat, chaque mithai est préparé en petites quantités avec du lait frais, des noix et une touche de safran — comme à la maison. Tout est <strong>100 % végétarien</strong> : nos vitrines regorgent de sucreries colorées et de collations salées croustillantes, dans un espace impeccable dont nos clients raffolent.</p>
         <p class="reveal" data-i18n="storyP2">Des classiques du Pendjab aux favoris du Bengale, nous célébrons la richesse des desserts indiens — pour un thé de l'après-midi, un cadeau, ou une grande fête.</p>
         <blockquote class="quote reveal">
           <p data-i18n="storyQuote">« Je n'ai jamais vu un endroit aussi propre. Les sucreries sont incroyablement fraîches et savoureuses — qualité au sommet. »</p>
@@ -126,7 +136,7 @@
       <div class="section__head">
         <p class="kicker reveal" data-i18n="menuKicker">Notre menu</p>
         <h2 class="h2 reveal" data-i18n="menuTitle">Sucreries, collations &amp; coffrets</h2>
-        <p class="section__note reveal" data-i18n="menuNote">Prix indicatifs — appelez-nous pour la sélection du jour et les commandes en gros.</p>
+        <p class="section__note reveal"><span class="vegdot"></span> <span data-i18n="menuNote">Tout est 100 % végétarien. Sucreries vendues au poids — appelez-nous pour les prix du jour et les commandes en gros.</span></p>
       </div>
 
       <div class="tabs reveal" role="tablist">
@@ -139,30 +149,37 @@
       <div class="tabpane is-active" data-pane="sweets">
         <div class="menu__layout">
           <div class="menu__list">
-            <div class="mrow"><span class="mrow__name">Jalebi <em data-i18n="tagFav">populaire</em></span><span class="mrow__dot"></span><span class="mrow__price">9,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Jalebi <em data-i18n="tagFav">populaire</em></span></div>
             <p class="mrow__desc" data-i18n="dJalebi">Spirales croustillantes trempées dans un sirop safrané, servies chaudes.</p>
-            <div class="mrow"><span class="mrow__name">Gulab Jamun</span><span class="mrow__dot"></span><span class="mrow__price">10,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Gulab Jamun</span></div>
             <p class="mrow__desc" data-i18n="dGulab">Boulettes de khoya dorées, gorgées de sirop à la rose et à la cardamome.</p>
-            <div class="mrow"><span class="mrow__name">Rasmalai</span><span class="mrow__dot"></span><span class="mrow__price">1,99&nbsp;$/pc</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Rasmalai</span></div>
             <p class="mrow__desc" data-i18n="dRasmalai">Disques de fromage frais dans un lait crémeux au safran et aux pistaches.</p>
-            <div class="mrow"><span class="mrow__name">Kaju Katli <em data-i18n="tagPrem">premium</em></span><span class="mrow__dot"></span><span class="mrow__price">15,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Kaju Katli <em data-i18n="tagPrem">premium</em></span></div>
             <p class="mrow__desc" data-i18n="dKaju">Losanges fondants aux noix de cajou, feuille d'argent comestible.</p>
-            <div class="mrow"><span class="mrow__name">Pista &amp; Besan Barfi</span><span class="mrow__dot"></span><span class="mrow__price">11,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Pista &amp; Besan Barfi</span></div>
             <p class="mrow__desc" data-i18n="dBarfi">Carrés de barfi à la pistache et à la farine de pois chiche torréfiée.</p>
-            <div class="mrow"><span class="mrow__name">Motichoor &amp; Boondi Ladoo</span><span class="mrow__dot"></span><span class="mrow__price">10,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Motichoor &amp; Boondi Ladoo</span></div>
             <p class="mrow__desc" data-i18n="dLadoo">Perles de boondi liées en boules dorées, un classique des fêtes.</p>
-            <div class="mrow"><span class="mrow__name">Soan Papdi</span><span class="mrow__dot"></span><span class="mrow__price">9,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Soan Papdi</span></div>
             <p class="mrow__desc" data-i18n="dSoan">Cubes feuilletés qui fondent en bouche, garnis de pistaches.</p>
-            <div class="mrow"><span class="mrow__name">Chanar Sondesh · Milk Cake · Balushahi</span><span class="mrow__dot"></span><span class="mrow__price">10,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Chanar Sondesh · Milk Cake · Balushahi</span></div>
             <p class="mrow__desc" data-i18n="dBengali">Assortiment de délices au lait frais — bengalis et pendjabis.</p>
-            <div class="mrow"><span class="mrow__name">Gajar Halwa <em data-i18n="tagSeason">saison</em></span><span class="mrow__dot"></span><span class="mrow__price">11,99&nbsp;$/lb</span></div>
+            <div class="mrow mrow--np"><span class="mrow__name">Gajar Halwa <em data-i18n="tagSeason">saison</em></span></div>
             <p class="mrow__desc" data-i18n="dHalwa">Carottes mijotées au lait, ghee et cardamome — servi chaud l'hiver.</p>
+            <div class="callout reveal">
+              <p data-i18n="sweetsCall">Sucreries vendues au poids. Appelez-nous pour les prix du jour et pour composer votre plateau.</p>
+              <div class="callout__cta">
+                <a class="btn btn--gold btn--sm" href="tel:+15144974106" data-i18n="callBtn">Appeler (514) 497-4106</a>
+                <a class="btn btn--wa btn--sm" href="https://wa.me/15144974106?text=Bonjour%20Kirat%20Sweets%20%26%20Snacks%2C%20je%20souhaite%20des%20informations%20sur%20vos%20sucreries." target="_blank" rel="noopener" data-i18n="waBtn">WhatsApp</a>
+              </div>
+            </div>
           </div>
           <div class="menu__cards">
             <figure class="pcard reveal"><img src="assets/img/jalebi.jpg" alt="Jalebi" /><figcaption>Jalebi</figcaption></figure>
             <figure class="pcard reveal"><img src="assets/img/gulab_jamun.jpg" alt="Gulab Jamun" /><figcaption>Gulab Jamun</figcaption></figure>
+            <figure class="pcard reveal"><img src="assets/img/coconut.jpg" alt="Coconut Barfi" /><figcaption data-i18n="capCoconut">Coconut Barfi</figcaption></figure>
             <figure class="pcard reveal"><img src="assets/img/barfi.jpg" alt="Kaju Barfi" /><figcaption>Kaju Katli</figcaption></figure>
-            <figure class="pcard reveal"><img src="assets/img/rasmalai.jpg" alt="Rasmalai" /><figcaption>Rasmalai</figcaption></figure>
           </div>
         </div>
       </div>
@@ -199,26 +216,26 @@
       <div class="tabpane" data-pane="boxes">
         <div class="boxes">
           <article class="box reveal">
-            <img src="assets/img/giftbox.jpg" alt="Coffret assorti" />
+            <img src="assets/img/boxes-gold.jpg" alt="Coffret assorti de mithai" />
             <div class="box__body">
               <h3 data-i18n="box1T">Coffret assorti</h3>
-              <p data-i18n="box1D">Un choix du chef parmi nos mithai les plus populaires, joliment présenté.</p>
-              <span class="box__price" data-i18n="box1P">½ lb 12,99 $ · 1 lb 22,99 $ · 2 lb 42,99 $</span>
+              <p data-i18n="box1D">Un choix parmi nos mithai les plus populaires — barfi, cham cham, kaju katli — dans nos élégants coffrets dorés.</p>
+              <span class="box__price" data-i18n="box1P">½ lb · 1 lb · 2 lb — appelez pour commander</span>
             </div>
           </article>
           <article class="box reveal">
-            <img src="assets/img/hero.jpg" alt="Coffret de fête" />
+            <img src="assets/img/boxes-ladoo.jpg" alt="Coffret de fête aux ladoo et barfi" />
             <div class="box__body">
               <h3 data-i18n="box2T">Coffret de fête</h3>
-              <p data-i18n="box2D">Diwali, Rakhi, Eid ou mariage — coffrets décoratifs avec ruban et bougie diya.</p>
-              <span class="box__price" data-i18n="box2P">À partir de 24,99 $</span>
+              <p data-i18n="box2D">Diwali, Rakhi, Eid ou mariage — ladoo dorés, barfi et milk cake, joliment présentés pour offrir.</p>
+              <span class="box__price" data-i18n="box2P">Sur commande — appelez-nous</span>
             </div>
           </article>
           <article class="box reveal">
-            <img src="assets/img/catering.jpg" alt="Plateau de célébration" />
+            <img src="assets/img/platter.jpg" alt="Plateau de célébration de sucreries" />
             <div class="box__body">
               <h3 data-i18n="box3T">Plateaux de célébration</h3>
-              <p data-i18n="box3D">Grands plateaux de sucreries et de collations pour anniversaires et réceptions.</p>
+              <p data-i18n="box3D">Grands plateaux composés de sucreries et de collations pour anniversaires, réceptions et mariages.</p>
               <span class="box__price" data-i18n="box3P">Sur mesure — voir Traiteur</span>
             </div>
           </article>
@@ -230,13 +247,15 @@
   <!-- ===== Signature gallery ===== -->
   <section class="gallery">
     <div class="gallery__track">
+      <figure><img src="assets/img/platter-wide.jpg" alt="Plateau de sucreries assorties"><figcaption data-i18n="galPlatter">Plateau assorti</figcaption></figure>
       <figure><img src="assets/img/jalebi.jpg" alt="Jalebi"><figcaption>Jalebi</figcaption></figure>
+      <figure><img src="assets/img/coconut.jpg" alt="Coconut Barfi"><figcaption>Coconut Barfi</figcaption></figure>
+      <figure><img src="assets/img/display2.jpg" alt="Vitrine en boutique"><figcaption data-i18n="galShop">En boutique</figcaption></figure>
       <figure><img src="assets/img/gulab_jamun.jpg" alt="Gulab Jamun"><figcaption>Gulab Jamun</figcaption></figure>
+      <figure><img src="assets/img/boxes-gold.jpg" alt="Coffrets cadeaux"><figcaption data-i18n="galBoxes">Coffrets</figcaption></figure>
       <figure><img src="assets/img/ladoo.jpg" alt="Motichoor Ladoo"><figcaption>Motichoor Ladoo</figcaption></figure>
-      <figure><img src="assets/img/barfi.jpg" alt="Kaju Katli"><figcaption>Kaju Katli</figcaption></figure>
-      <figure><img src="assets/img/rasmalai.jpg" alt="Rasmalai"><figcaption>Rasmalai</figcaption></figure>
-      <figure><img src="assets/img/soanpapdi.jpg" alt="Soan Papdi"><figcaption>Soan Papdi</figcaption></figure>
       <figure><img src="assets/img/samosa.jpg" alt="Samoussa"><figcaption>Samoussa</figcaption></figure>
+      <figure><img src="assets/img/barfi.jpg" alt="Kaju Katli"><figcaption>Kaju Katli</figcaption></figure>
     </div>
   </section>
 
@@ -246,21 +265,22 @@
       <div class="cater__body">
         <p class="kicker reveal" data-i18n="caterKicker">Service traiteur</p>
         <h2 class="h2 reveal" data-i18n="caterTitle">Adoucissez chaque célébration.</h2>
-        <p class="lead reveal" data-i18n="caterP1">Mariages, Diwali, Rakhi, Eid, anniversaires ou réunions au bureau — nous préparons des plateaux de sucreries et de collations, des coffrets-cadeaux et des commandes en gros, adaptés à votre événement et à votre budget.</p>
+        <p class="lead reveal" data-i18n="caterP1">Traiteur disponible pour <strong>mariages, fêtes et réceptions</strong> — Diwali, Rakhi, Eid, anniversaires ou réunions au bureau. Plateaux de sucreries et de collations, coffrets-cadeaux et grandes quantités, <strong>100 % végétariens</strong>, adaptés à votre événement et à votre budget.</p>
         <ul class="ticks reveal">
           <li data-i18n="caterL1">Plateaux de mithai &amp; collations assortis</li>
           <li data-i18n="caterL2">Coffrets-cadeaux personnalisés pour les fêtes</li>
           <li data-i18n="caterL3">Grandes quantités sur commande</li>
-          <li data-i18n="caterL4">Options végétariennes &amp; véganes</li>
+          <li data-i18n="caterL4">Entièrement végétarien — aucun produit de viande</li>
         </ul>
+        <p class="cater__call reveal" data-i18n="caterCall">Appelez-nous ou écrivez sur WhatsApp — nous vous rappelons avec une soumission personnalisée et gratuite.</p>
         <div class="cater__cta reveal">
-          <a class="btn btn--gold" href="tel:+14506827774" data-i18n="caterBtn">Commander : (450) 682-7774</a>
-          <a class="btn btn--outline" href="mailto:kirat.sucrerie.collation@gmail.com?subject=Demande%20traiteur%20-%20Kirat" data-i18n="caterBtn2">Écrire un courriel</a>
+          <a class="btn btn--gold" href="tel:+15144974106" data-i18n="caterBtn">Appeler (514) 497-4106</a>
+          <a class="btn btn--wa" href="https://wa.me/15144974106?text=Bonjour%20Kirat%20Sweets%20%26%20Snacks%2C%20je%20souhaite%20une%20soumission%20traiteur.%20Voici%20mon%20%C3%A9v%C3%A9nement%20%3A" target="_blank" rel="noopener" data-i18n="caterBtnWa"><span class="wa-ic" aria-hidden="true">✆</span> WhatsApp Business</a>
         </div>
-        <p class="cater__lead-note reveal" data-i18n="caterNote">Astuce : réservez 48 h à l'avance pour les grandes commandes de fête.</p>
+        <p class="cater__lead-note reveal" data-i18n="caterNote">Astuce : réservez 48 h à l'avance pour les grandes commandes de fête. Aussi joignable au (450) 682-7774.</p>
       </div>
       <div class="cater__media reveal">
-        <img src="assets/img/catering.jpg" alt="Plateau traiteur de sucreries indiennes" />
+        <img src="assets/img/catering-real.jpg" alt="Plateaux traiteur de collations indiennes végétariennes" />
       </div>
     </div>
   </section>
@@ -290,10 +310,12 @@
         <div class="visit__block reveal">
           <h4 data-i18n="visitContact">Contact</h4>
           <p>
-            <a href="tel:+14506827774">(450) 682-7774</a><br>
+            <a href="tel:+15144974106">(514) 497-4106</a> · <span class="muted" data-i18n="waTag">WhatsApp</span><br>
+            <a href="tel:+14506827774">(450) 682-7774</a> · <span class="muted" data-i18n="shopTag">boutique</span><br>
             <a href="mailto:kirat.sucrerie.collation@gmail.com">kirat.sucrerie.collation@gmail.com</a>
           </p>
           <div class="socials">
+            <a class="soc-wa" href="https://wa.me/15144974106?text=Bonjour%20Kirat%20Sweets%20%26%20Snacks%2C%20je%20souhaite%20des%20informations." target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
             <a href="https://www.facebook.com/p/Sucreries-et-Collations-Kirat-61559003906691/" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
             <a href="https://www.instagram.com/sweetc_kirat/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
           </div>
@@ -324,6 +346,7 @@
       <a href="#visit" data-i18n="navVisit">Nous trouver</a>
     </nav>
     <div class="foot__contact">
+      <a href="https://wa.me/15144974106" target="_blank" rel="noopener">WhatsApp · (514) 497-4106</a>
       <a href="tel:+14506827774">(450) 682-7774</a>
       <a href="https://maps.google.com/?q=3477+Bd+Cartier+O+Laval" target="_blank" rel="noopener">3477 Boul. Cartier O, Laval</a>
       <span data-i18n="footHours">Tous les jours · 10 h – 20 h 30</span>
